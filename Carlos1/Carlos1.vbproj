@@ -82,6 +82,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Bienvenido.aspx" />
+    <Content Include="Hola.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -90,6 +91,13 @@
     </Compile>
     <Compile Include="Bienvenido.aspx.vb">
       <DependentUpon>Bienvenido.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Hola.aspx.designer.vb">
+      <DependentUpon>Hola.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Hola.aspx.vb">
+      <DependentUpon>Hola.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
