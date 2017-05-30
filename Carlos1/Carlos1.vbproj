@@ -83,6 +83,7 @@
   <ItemGroup>
     <Content Include="Bienvenido.aspx" />
     <Content Include="Hola.aspx" />
+    <Content Include="Joder.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -98,6 +99,13 @@
     </Compile>
     <Compile Include="Hola.aspx.vb">
       <DependentUpon>Hola.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Joder.aspx.designer.vb">
+      <DependentUpon>Joder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Joder.aspx.vb">
+      <DependentUpon>Joder.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
